@@ -1,1 +1,10 @@
-
+Column | Type | Description
+id | Numeric | Unique identifier for the house
+price | Numeric | Sale price of the house
+bedrooms | Integer | Number of bedrooms
+bathrooms | Float | Number of bathrooms
+sqft_living | Integer | Living area size in square feet
+sqft_lot | Integer | Lot size in square feet
+floors | Float | Number of floors
+waterfront | Binary | 1 if the property is on the waterfront, 0 otherwise
+view | Categorical | Rating of the property’s view (e.g., 0–4)
