@@ -8,3 +8,9 @@ sqft_lot | Integer | Lot size in square feet
 floors | Float | Number of floors
 waterfront | Binary | 1 if the property is on the waterfront, 0 otherwise
 view | Categorical | Rating of the property’s view (e.g., 0–4)
+condition | Categorical | Condition of the house (e.g., 1–5)
+grade | Categorical | Construction and design quality (e.g., 1–13)
+sqft_above | Integer | Square footage above ground
+sqft_basement | Integer | Square footage of the basement
+yr_built | Integer | Year the house was built
+yr_renovated | Integer | Year of last renovation (0 if never renovated)
